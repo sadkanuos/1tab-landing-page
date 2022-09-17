@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: ['./*.html'],
   theme: {
     screens:{
       sm: '480px',
@@ -9,6 +9,9 @@ module.exports = {
       xl: '1440px'
     },
     extend: {
+      colors: {
+        oxfordBlue: 'hsl(232, 29%, 21%)'
+      },
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
