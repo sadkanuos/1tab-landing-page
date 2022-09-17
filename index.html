@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="/assets/funnel.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>1Tab Landing Page</title>
+</head>
+<body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+        <div class="flex items-center justify-between space-x-20 my-6">
+            <div class="z-30">
+                <img src="assets/logo.svg" alt="" id="logo" class="w-32">
+            </div>
+            <div class="items-center hidden space-x-10 uppercase text-color-gray-300 md:flex">
+                <a href="#features" class="tracking-widest hover:text-orange-500">Features</a>
+                <a href="#download" class="tracking-widest hover:text-orange-500">Download</a>
+                <a href="#faq" class="tracking-widest hover:text-orange-500">FAQ</a>
+                <a href="#" class="px-8 py-2 text-white bg-orange-500 border-2 border-orange-500 rounded-lg shadow-md hover:text-orange-300 hover:bg-white">Get Started</a>
+            </div>
+        </div>
+    </nav>
+    <section id="hero">
+        <div class="container flex flex-col-reverse p-6 mx-auto lg:flex-row lg:mb-0">
+            <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+                <h1 class="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
+                    A Tab Manager
+                </h1>
+                <p class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex a facilis, voluptas esse hic ad nostrum dolore itaque recusandae totam ab?
+                </p>
+                <div class="flex items-center justify-center w-full space-x-4 lg:justify-start">
+                    <a href="#" class="p-4 text-sm font-semibold text-white bg-violet-700 rounded shadow-md border-2 border-violet-700 md:text-base hover:bg-white hover:text-violet-700">Get it on Firefox</a>
+                    <a href="#" class="p-4 text-sm font-semibold text-neutral-700 bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-700">Get it on Chrome</a>
+                </div>
+            </div>
+            <div class="relative mx-auto w-full lg:mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+                <div class="bg-hero"></div>
+                <img src="assets/illustration-features-tab-1.svg" alt="" class="relative z-10 mb-10 lg:top-24 xl:top-0 overflow-x-visible ">
+            </div>
+        </div>
+    </section>
+    <section id="features">
+        <div class="container mx-auto mt-16 px-6">
+            <h2 class="mb-6 text-4xl font-semibold text-center">Features</h2>
+            <p class="max-w-md mx-auto text-center text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus illum at doloribus neque nisi nemo magnam a sit aperiam!</p>
+        </div>
+    </section>
+    <section id="tabs">
+        <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
+            <div class="bg-tabs"></div>
+            <div class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row">
+                <div class="flex justify-center text-center text-gray-700 border-b md:border-b-0 hover:text-orange-500 md:w-1/3 tab" data-target="panel-1">
+                    <div class="py-5 border-b-4 border-b-orange-500" data-target="panel-1">
+                        Lorem, ipsum.
+                    </div>
+                </div>
+                <div class="flex justify-center text-center text-gray-700 border-b md:border-b-0 hover:text-orange-500 md:w-1/3 tab" data-target="panel-2">
+                    <div class="py-5" data-target="panel-2">
+                        Lorem, ipsum.
+                    </div>
+                </div>
+                <div class="flex justify-center text-center text-gray-700 border-b md:border-b-0 hover:text-orange-500 md:w-1/3 tab" data-target="panel-3">
+                    <div class="py-5" data-target="panel-3">
+                        Lorem, ipsum.
+                    </div>
+                </div>
+            </div>
+            <section id="panels" class="container mx-auto">
+                <div class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
+                    <div class="flex justify-center md:w-1/2">
+                        <img src="assets/illustration-features-tab-3.svg" alt="" class="relative z-10">
+                    </div>
+                    <div class="flex flex-col space-y-8 md:w-1/2">
+                        <h3 class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left">
+                            Lorem ipsum dolor sit.
+                        </h3>
+                        <p class="max-w-md text-center text-gray-700 md:text-left">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi, laudantium minima repellat error sed vitae?
+                        </p>
+                        <div class="mx-auto md:mx-0">
+                            <a href="#" class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-orange-500 hover:bg-white hover:text-orange-500 hover:orange-500 hover:border-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2">
+                    <div class="flex justify-center md:w-1/2">
+                        <img src="assets/illustration-features-tab-2.svg" alt="" class="relative z-10">
+                    </div>
+                    <div class="flex flex-col space-y-8 md:w-1/2">
+                        <h3 class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left">
+                            Lorem ipsum dolor sit.
+                        </h3>
+                        <p class="max-w-md text-center text-gray-700 md:text-left">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi, laudantium minima repellat error sed vitae?
+                        </p>
+                        <div class="mx-auto md:mx-0">
+                            <a href="#" class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-orange-500 hover:bg-white hover:text-orange-500 hover:orange-500 hover:border-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3">
+                    <div class="flex justify-center md:w-1/2">
+                        <img src="assets/illustration-features-tab-4.svg" alt="" class="relative z-10">
+                    </div>
+                    <div class="flex flex-col space-y-8 md:w-1/2">
+                        <h3 class="mt-14 text-3xl font-semibold text-center md:mt-0 md:text-left">
+                            Lorem ipsum dolor sit.
+                        </h3>
+                        <p class="max-w-md text-center text-gray-700 md:text-left">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi, laudantium minima repellat error sed vitae?
+                        </p>
+                        <div class="mx-auto md:mx-0">
+                            <a href="#" class="px-6 py-3 mt-4 font-semibold text-white border-2 border-white rounded-lg md:inline-flex bg-orange-500 hover:bg-white hover:text-orange-500 hover:orange-500 hover:border-2">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section id="download">
+        <div class="container mx-auto px-6">
+            <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+                Download the extension
+            </h2>
+            <p class="max-w-lg mx-auto text-center text-gray-500">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nihil ducimus illum nobis blanditiis dicta veritatis nisi aspernatur odio modi!
+            </p>
+        </div>
+    </section>
+    <section id="download-box" class="py-32">
+        <div class="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
+            <div class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:w-1/3">
+                <div class="flex justify-center">
+                    <img src="assets/Firefox-Logo.wine.svg" alt="">
+                </div>
+                <h5 class="pt-6 text-xl font-bold">Add to Firefox</h5>
+                <p class="text-gray-400">Minimum Version: 45</p>
+                <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
+                    <a href="#" class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-violet-700 hover:text-violet-700 hover:bg-white hover:border-violet-700">Add Extension</a>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3">
+                <div class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:mt-8">
+                    <div class="flex justify-center">
+                        <img src="assets/Google_Chrome-Logo.wine.svg" alt="">
+                    </div>
+                    <h5 class="pt-6 text-xl font-bold">Add to Google Chrome</h5>
+                    <p class="text-gray-400">Minimum Version: 50</p>
+                    <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
+                        <a href="#" class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-violet-700 hover:text-violet-700 hover:bg-white hover:border-violet-700">Add Extension</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full md:w-1/3">
+                <div class="flex flex-col w-full py-6 space-y-4 text-center rounded-lg shadow-lg md:mt-16">
+                    <div class="flex justify-center">
+                        <img src="assets/Safari_(web_browser)-Logo.wine.svg" alt="">
+                    </div>
+                    <h5 class="pt-6 text-xl font-bold">Add to Safari</h5>
+                    <p class="text-gray-400">Minimum Version: 10</p>
+                    <div class="bg-dots bg-repeat-x px-6 pt-6 capitalize">
+                        <a href="#" class="block w-full py-3 text-white duration-200 border-2 rounded-lg bg-violet-700 hover:text-violet-700 hover:bg-white hover:border-violet-700">Add Extension</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container mx-auto">
+            <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">Frequently Asked Questions</h2>
+        </div>
+        <p class="max-w-lg px-6 mx-auto text-center text-gray-700">
+            Here are some of the FAQs. For any other query, reach us via email.
+        </p>
+    </section>
+    <section id="faq-accordion">
+        <div class="container mx-auto px-6 mb-32">
+            <div class="max-w-2xl m-8 mx-auto overflow-hidden">
+                <div class="py-1 border-b outline-none group" tabindex="1">
+                    <div class="flex items-center justify-between py-3 text-neutral-500 transition duration-500 cursor-pointer group ease">
+                        <div class="transition duration-500 ease group-hover:text-orange-500">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-orange-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                                <path
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  d="M1 1l8 8 8-8"
+                                />
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="py-2 text-justify text-gray-400">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit deleniti unde eos perferendis. Veritatis sunt rerum consequatur, exercitationem vel dolorem dolore officiis in eligendi?
+                        </p>
+                    </div>
+                </div>
+                <div class="py-1 border-b outline-none group" tabindex="2">
+                    <div class="flex items-center justify-between py-3 text-neutral-500 transition duration-500 cursor-pointer group ease">
+                        <div class="transition duration-500 ease group-hover:text-orange-500">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-orange-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                                <path
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  d="M1 1l8 8 8-8"
+                                />
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="py-2 text-justify text-gray-400">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit deleniti unde eos perferendis. Veritatis sunt rerum consequatur, exercitationem vel dolorem dolore officiis in eligendi?
+                        </p>
+                    </div>
+                </div>
+                <div class="py-1 border-b outline-none group" tabindex="3">
+                    <div class="flex items-center justify-between py-3 text-neutral-500 transition duration-500 cursor-pointer group ease">
+                        <div class="transition duration-500 ease group-hover:text-orange-500">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-orange-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                                <path
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  d="M1 1l8 8 8-8"
+                                />
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="py-2 text-justify text-gray-400">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit deleniti unde eos perferendis. Veritatis sunt rerum consequatur, exercitationem vel dolorem dolore officiis in eligendi?
+                        </p>
+                    </div>
+                </div>
+                <div class="py-1 border-b outline-none group" tabindex="4">
+                    <div class="flex items-center justify-between py-3 text-neutral-500 transition duration-500 cursor-pointer group ease">
+                        <div class="transition duration-500 ease group-hover:text-orange-500">
+                            Lorem, ipsum dolor.
+                        </div>
+                        <div class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-orange-500">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
+                                <path
+                                  fill="none"
+                                  stroke="currentColor"
+                                  stroke-width="3"
+                                  d="M1 1l8 8 8-8"
+                                />
+                              </svg>
+                        </div>
+                    </div>
+                    <div class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease">
+                        <p class="py-2 text-justify text-gray-400">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam suscipit deleniti unde eos perferendis. Veritatis sunt rerum consequatur, exercitationem vel dolorem dolore officiis in eligendi?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
