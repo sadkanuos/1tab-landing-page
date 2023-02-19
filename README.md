@@ -5,7 +5,7 @@ This is a homepage concept design for a FOSS (Free and Open Source) browser exte
 
 This homepage emulates the homepage for many such web based tools that we use daily. As per norm, this project also involved a bit of customization of svg files.
 
-It also features a hanburger menu for smaller resolution devices that envelops the nav bar menu and shows instead a menu in the entire screen. Also, it has base for the svg assets used inside the page. It also contains a tab switcher and inside each of tabs are different contents regarding the product. It also has a collapsable FAQ sections that is prevalent in most product based websites. All of them are achieved using Custom css classes and DOM via Vanilla JavaScript.
+It also features a hamburger menu for smaller resolution devices that envelops the nav bar menu and shows instead a menu in the entire screen. Also, it has base for the svg assets used inside the page. It also contains a tab switcher and inside each of tabs are different contents regarding the product. It also has a collapsable FAQ sections that is prevalent in most product based websites. All of them are achieved using Custom css classes and DOM via Vanilla JavaScript.
 
 # ## Made Using:
 <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
